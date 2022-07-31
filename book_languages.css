@@ -1,0 +1,13 @@
+body {
+	font-family: 'Jost';
+}
+
+[lang='he'], [lang='yi']{
+	font-family: 'Shlomo';
+	font-size: 1.2em;
+}
+
+p[lang='he'], p[lang='yi']{
+	text-align: justify;
+	direction: rtl;
+}

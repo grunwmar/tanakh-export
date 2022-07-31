@@ -1,0 +1,42 @@
+h1, h2 {
+	text-align: center;
+}
+
+
+h3{
+	font-weight: normal;
+}
+
+p {
+	text-align: justify;
+	list-style-position: outside;
+	margin: 0.1em;
+	line-height: 1.4;
+}
+
+p::before{
+	content: " "attr(title)" ";
+	font-size: 0.70em;
+	font-family: 'Shlomo';
+	color: #555555;
+	vertical-align: top;
+}
+
+.verse {
+	page-break-inside: avoid !important;
+	padding: 0 0.1em;
+	margin: 0;
+}
+
+hr {
+	visibility: hidden;
+}
+
+
+em {
+	font-style: italic;
+}
+
+sup{
+	font-size: 0.66em;
+}
