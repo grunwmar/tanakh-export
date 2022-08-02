@@ -8,9 +8,17 @@ import os
 def get_jsonfile_text_content(filepath):
     """Read 'text' content from json file."""
     try:
-        with open(filepath) as fp:
-            return json.load(fp).get('text')
-    except:
+        json_data = {}
+        with open(filepath, 'r') as fp:
+            json_data['book'] = json.load(fp)
+
+        with open(filepath, 'w') as fp:
+            json.dump(json_data['book'], fp, ensure_ascii=False, indent=3)
+
+        print(json_data)
+        return json_data['book'].get('text')
+    except Exception as e:
+        print(e)
         return None
 
 
@@ -25,7 +33,7 @@ if __name__ == '__main__':
 
     langs = [os.path.splitext(os.path.basename(path))[0] for path in sys.argv[1:]]
     basedir = os.path.dirname(sys.argv[1])
-
+    last_verse = [None]
     for refindex_chapter in range(len(books[0])):
         try:
             chapters = [chapter[refindex_chapter] for chapter in books]
@@ -42,11 +50,12 @@ if __name__ == '__main__':
                         print('\t',n, version)
 
                     merged_chapter.append(merged_verse)
+                    last_verse[0] = (index, merged_verse)
 
                 except Exception as e:
                     print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
-                    print("Error on", index, e)
-                    error_list.append(f'{index} # {e}')
+                    print("Error on", index, e, last_verse[0])
+                    error_list.append((f'{index} # {e}', last_verse[0]))
                     not_failed &= False
     
                 print('\n')
@@ -55,7 +64,7 @@ if __name__ == '__main__':
         except Exception as e:
             print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
             print("Error on", index, e)
-            error_list.append(f'{index} # {e}')
+            error_list.append((f'{index} # {e}', last_verse[0]))
             not_failed &= False
  
         print('\n')
@@ -66,11 +75,13 @@ if __name__ == '__main__':
             fp_check.write('true')
 
     else:
+    
+        err_str = ""
 
-        for err in error_list:
-            print(err)
-
-        err_str = json.dumps(error_list, ensure_ascii=False, indent=3)
+        for err, (i,(a,b)) in error_list:
+            err_str_item = f"ERR {err}\n\t--> {a}\n\t--> {b}\n"
+            err_str += err_str_item
+            print(err_str_item)
 
 
         with open(os.path.join(basedir, 'FAIL['+'-'.join(langs) + ']'), 'w') as fp_check:
