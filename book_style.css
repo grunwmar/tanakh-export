@@ -7,17 +7,13 @@ h1, h2 {
 	text-align: center;
 }
 
-table {
-	width: 95vw;
-}
-
 td {
 	text-align: justify;
 	margin: 0.1em;
 	line-height: 1.25;
 }
 
-.verse {
+table {
 	page-break-inside: avoid !important;
 	padding: 0 0.1em;
 	margin: 0 auto;
@@ -36,7 +32,7 @@ td {
 	font-style: italic;
 }
 
-[lang=he] .note_1 {
+[lang=he] .note_1, [lang=he] i {
 	font-style: normal;
 	font-family: "Taamey Frank CLM";
 	vertical-align: middle;
