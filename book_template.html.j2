@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{{title}}</title>
+  <link rel="stylesheet" type="text/css" href="../../../book_style.css" />
+  <link rel="stylesheet" type="text/css" href="../../../book_languages.css" />
+</head>
+<body>
+  <h1 lang="he" style="font-size: 3em !important; margin-top: 2em;">{{title}}</h1>
+  <hr / style="visibility: hidden;">
+  {% for i in range(book_length) %}
+    {% set chapter_index = i + 1 %}
+    {% set chapter_length = books[0][i] | count() %}
+      <h2 lang="he">{{ chapter_index | hebrew_index }}</h2>
+      {% for j in range(chapter_length) %}
+        {% set verse_index = j + 1 %}
+        {% set lang_num = books | count() %}
+        <table>
+        {% for k in range(lang_num) %}
+          {% set lang = languages[k] %}
+          <tr>
+            <td class="l-index">
+            {% if k == 0 %}
+              {{ verse_index }}
+            {% else %}
+            {% endif %}
+            </td>
+              <td lang="{{ lang }}">
+                {{ books[k][i][j] | subs_brackets | subs_brackets_he }}
+              </td>
+              <td class="r-index">
+              {% if k == 0 %}
+                {{ verse_index | hebrew_index }}
+              {% else %}
+              {% endif %}
+              </td>
+          </tr>
+        {% endfor %}
+        </table>
+      {% endfor %}
+  {% endfor %}
+</body>
+</html>

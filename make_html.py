@@ -3,6 +3,8 @@ import os
 from bs4 import BeautifulSoup
 from hebrew_numbers import  int_to_gematria
 from filters import fix_yiddish_letters, replace_brackets, unescape_angle_brackets
+from jinja2 import Environment, FileSystemLoader
+from jinja2.filters import FILTERS
 
 
 LETTER_INDICES = 'abcdefghijklmnopqrstuvwxyz'
@@ -14,6 +16,20 @@ def convert_index(lang, int):
     else:
         return str(int)
 
+def hebrew_index(integer):
+    return convert_index("he", integer)
+
+def subs_brackets(string):
+    return replace_brackets(string, new=('<i>', '</i>'))
+
+def subs_brackets_he(string):
+    return replace_brackets(string, old=("(", ")"), new=('<span class="note_1">', '</span>'))
+
+
+FILTERS["hebrew_index"] = hebrew_index
+FILTERS["subs_brackets"] = subs_brackets
+FILTERS["subs_brackets_he"] = subs_brackets_he
+
 
 def main():
 
@@ -22,7 +38,7 @@ def main():
     LANG_2 = os.environ['TNK_BOOK_LANG2'] if len(os.environ['TNK_BOOK_LANG2']) > 0 else None
 
     paths = []
-    
+
     languages = [LANG_1, LANG_2]
     languages = list(filter(lambda x: x is not None, languages))
 
@@ -60,94 +76,19 @@ def main():
 
     title = title[0]
 
+    environment = Environment(loader=FileSystemLoader("."))
+    template = environment.get_template("book_template.html.j2")
 
-    html_doc = f"""<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <title>{title}</title>
-  <link rel="stylesheet" type="text/css" href="../../../book_style.css" />
-  <link rel="stylesheet" type="text/css" href="../../../book_languages.css" />
-</head>
-<body>
+    book_length = len(books[0])
 
-</body>
-</html>
-"""
+    rendered = template.render(title=title, book_length=book_length, books=books, languages=languages)
 
-    html_soup = BeautifulSoup(html_doc, 'html.parser')
-
-    html_headline = html_soup.new_tag('h1')
-    html_headline.string = str(title)
-    html_headline['lang'] = languages[0]
-
-    html_soup.append(html_headline)
-
-    merged_book_text = []
-
-    for i in range(len(books[0])):
-
-        chapter = i + 1
-
-        html_chapter_title = html_soup.new_tag('h2')
-        html_chapter_title['lang'] = languages[0]
-
-        html_chapter_title.string = convert_index(languages[0], chapter)
-
-        html_break = html_soup.new_tag('hr')
-
-        html_soup.append(html_break)
-        html_soup.append(html_chapter_title)
-
-
-        for j in range(len(books[0][i])):
-
-            verse = j + 1
-
-            html_verse = html_soup.new_tag('div')
-            html_verse['class'] = 'verse'
-
-            for n, b in enumerate(books):
-
-                lang = languages[n]
-
-                html_verse_lang = html_soup.new_tag('p')
-
-                verse_item = b[i][j]
-
-                if isinstance(verse_item, list):
-                    verse_item = '<br /><span class="arrow">»</span> '.join(verse_item)
-
-
-                if lang in ['he', 'yi']:
-                    text = replace_brackets(verse_item, new=('<sup>', '</sup>'))
-                else:
-                    text = replace_brackets(verse_item, old=('[', ']'))
-                    
-
-
-                if lang == "yi":
-                    html_verse_lang.string = fix_yiddish_letters(text)
-                else:
-                    html_verse_lang.string = text
-
-                html_verse_lang['class'] = 'lang'
-                html_verse_lang['lang'] = lang
-                html_verse_lang['title'] = convert_index(lang, verse)
-
-                html_verse.append(html_verse_lang)
-
-            html_soup.append(html_verse)
-
-        
 
     with open(os.path.join(BOOK_PATH, output_filename+'.html'), 'w') as f:
-        string = html_soup.prettify()
+        string = rendered
         f.write(unescape_angle_brackets(string))
 
     os.system('bash convert.sh')
-
-
 
 
 main()

@@ -1,42 +1,44 @@
+
+h1{
+	font-weight: normal;
+}
+
 h1, h2 {
 	text-align: center;
 }
 
-
-h3{
-	font-weight: normal;
+table {
+	width: 95vw;
 }
 
-p {
+td {
 	text-align: justify;
-	list-style-position: outside;
 	margin: 0.1em;
-	line-height: 1.4;
-}
-
-p::before{
-	content: " "attr(title)" ";
-	font-size: 0.70em;
-	font-family: 'Shlomo';
-	color: #555555;
-	vertical-align: top;
+	line-height: 1.25;
 }
 
 .verse {
 	page-break-inside: avoid !important;
 	padding: 0 0.1em;
-	margin: 0;
+	margin: 0 auto;
+	width: 95vw;
 }
 
-hr {
-	visibility: hidden;
+.r-index, .l-index{
+	width: 2.5em;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 0.7em;
+	font-size: 12pt;
 }
 
-
-em {
+.note_1 {
 	font-style: italic;
 }
 
-sup{
-	font-size: 0.66em;
+[lang=he] .note_1 {
+	font-style: normal;
+	font-family: "Taamey Frank CLM";
+	vertical-align: middle;
+	font-size: 0.8em;
 }

@@ -15,7 +15,6 @@ def get_jsonfile_text_content(filepath):
         with open(filepath, 'w') as fp:
             json.dump(json_data['book'], fp, ensure_ascii=False, indent=3)
 
-        print(json_data)
         return json_data['book'].get('text')
     except Exception as e:
         print(e)
@@ -34,6 +33,7 @@ if __name__ == '__main__':
     langs = [os.path.splitext(os.path.basename(path))[0] for path in sys.argv[1:]]
     basedir = os.path.dirname(sys.argv[1])
     last_verse = [None]
+    print(books[0])
     for refindex_chapter in range(len(books[0])):
         try:
             chapters = [chapter[refindex_chapter] for chapter in books]
@@ -57,7 +57,7 @@ if __name__ == '__main__':
                     print("Error on", index, e, last_verse[0])
                     error_list.append((f'{index} # {e}', last_verse[0]))
                     not_failed &= False
-    
+
                 print('\n')
 
             merged_book.append(merged_chapter)
@@ -66,7 +66,7 @@ if __name__ == '__main__':
             print("Error on", index, e)
             error_list.append((f'{index} # {e}', last_verse[0]))
             not_failed &= False
- 
+
         print('\n')
 
 
@@ -75,7 +75,7 @@ if __name__ == '__main__':
             fp_check.write('true')
 
     else:
-    
+
         err_str = ""
 
         for err, (i,(a,b)) in error_list:
@@ -86,9 +86,3 @@ if __name__ == '__main__':
 
         with open(os.path.join(basedir, 'FAIL['+'-'.join(langs) + ']'), 'w') as fp_check:
             fp_check.write(err_str)
-
-
-
-
-
-

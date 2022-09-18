@@ -1,13 +1,27 @@
 body {
-	font-family: 'Jost';
+	font-family: 'Crimson Pro';
+}
+
+.l-index{
+	font-family: 'Crimson Pro';
+	text-align: center;
+}
+
+.r-index{
+	font-family: 'Ezra SIL';
+	text-align: center;
 }
 
 [lang='he'], [lang='yi']{
-	font-family: 'Shlomo';
-	font-size: 1.2em;
+	font-family: 'Ezra SIL';
+	font-size: 1.6em;
 }
 
-p[lang='he'], p[lang='yi']{
-	text-align: justify;
+td[lang='he'], td[lang='yi']{
+	text-align: right;
 	direction: rtl;
+	hyphens: auto;
+	-webkit-hyphens: auto;
+	word-spacing: -0.02em;
+		line-height: 1.6;
 }
