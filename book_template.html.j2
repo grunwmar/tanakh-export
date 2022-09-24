@@ -10,12 +10,14 @@
   </style>
 </head>
 <body>
-  <h1 lang="he" style="font-size: 3em !important; margin-top: 2em;">{{title}}</h1>
+  <div class="face">
+    <h1 lang="he" style="font-size: 3.5em !important; margin-top: 0.1em;">{{title}}</h1>
+  </div>
   <hr style="visibility: hidden;" />
   {% for i in range(book_length) %}
     {% set chapter_index = i + 1 %}
     {% set chapter_length = books[0][i] | count() %}
-      <h2 lang="he">{{ chapter_index | hebrew_index }}</h2>
+      <h2 lang="he">{{ chapter_index }} ∙ {{ chapter_index | hebrew_index }}</h2>
       {% for j in range(chapter_length) %}
         {% set verse_index = j + 1 %}
         {% set lang_num = books | count() %}
@@ -42,6 +44,7 @@
         {% endfor %}
         </table>
       {% endfor %}
+      <div class="endbar">―</div>
   {% endfor %}
 </body>
 </html>

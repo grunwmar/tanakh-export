@@ -7,13 +7,14 @@ body {
 .l-index{
 	font-family: 'Crimson Pro';
 	text-align: right;
-	padding-right: 0.5em;
+	padding-right: 0.125em;
+	font-weight: bold;
 }
 
 .r-index{
-	font-family: 'Shlomo';
+	font-family: 'Shlomo Bold';
 	text-align: left;
-	padding-left: 0.5em;
+	padding-left: 0.125em;
 }
 
 [lang='he'], [lang='yi']{
@@ -34,5 +35,5 @@ td[lang='he'], td[lang='yi']{
 h1, h2{
 	font-family: 'Shlomo LB' !important;
 	font-weight: normal;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.1em;
 }

@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 from bs4 import BeautifulSoup
 from hebrew_numbers import  int_to_gematria
 from filters import fix_yiddish_letters, replace_brackets, unescape_angle_brackets
@@ -102,7 +103,9 @@ def main():
         open_file("book_languages.css")
     ]
 
-    rendered = template.render(title=title, book_length=book_length_, books=books_, languages=languages, styles=styles)
+    img_src = os.path.join(os.path.dirname(os.path.realpath(__file__)), "star-of-david.png")
+
+    rendered = template.render(title=title, book_length=book_length_, books=books_, languages=languages, styles=styles, img_src=img_src)
 
     with open(os.path.join(BOOK_PATH, output_filename+'.html'), 'w') as f:
         string = rendered

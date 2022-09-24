@@ -4,15 +4,25 @@ h1{
 	padding: 2em;
 }
 
-h1, h2 {
+h1, h2, .endbar {
 	text-align: center;
+}
+
+.endbar{
+	font-size: 2em;
+}
+
+h2 {
+	margin-top: -0.25em;
+	margin-bottom: 0.75em;
+	vertical-align: middle;
 }
 
 h2::before, h2::after{
 	content: "—";
-	padding: 0 0.2em;
+	padding: 0 0.5em;
 	font-weight: normal;
-	font-family: "Taamey Frank CLM"
+	font-family: "Taamey Frank CLM" !important;
 }
 
 td {
@@ -57,4 +67,18 @@ table {
 
 .row_2 {
 	padding: 5pt;
+}
+
+.star-of-david{
+	height: 10pt;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.face{
+	background-image: url('../../../star-of-david_bg.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 200pt;
+	height: 23cm;
 }
