@@ -2,14 +2,20 @@ import re
 
 
 def replace_brackets(string, old=('[', ']'), new=('<em>', '</em>')):
-    re_brackets = re.compile(f'(\{old[0]}([\w\s\d.,!?:;\'\u00A0-\u0903"\-]*)\{old[1]})')
-    found_brackets = re_brackets.findall(string)
-    new_string = string
+    try:
+        re_brackets = re.compile(f'(\{old[0]}([\w\s\d.,!?:;\'\u00A0-\u0903"\-\<\>/\"]*)\{old[1]})')
+        found_brackets = re_brackets.findall(string)
+        print("found>>", string, "=>", found_brackets)
+        new_string = string
 
-    for brackets in found_brackets:
-        new_string = new_string.replace(brackets[0], f'{new[0]}{brackets[1]}{new[1]}')
+        for brackets in found_brackets:
+            new_string = new_string.replace(brackets[0], f'{new[0]}{brackets[1]}{new[1]}')
 
-    return new_string
+        return new_string
+    except TypeError:
+        ...
+    return string
+
 
 
 def fix_yiddish_letters(string):

@@ -1,27 +1,38 @@
 body {
 	font-family: 'Crimson Pro';
+	font-size: 16pt;
 }
+
 
 .l-index{
 	font-family: 'Crimson Pro';
-	text-align: center;
+	text-align: right;
+	padding-right: 0.5em;
 }
 
 .r-index{
-	font-family: 'Ezra SIL';
-	text-align: center;
+	font-family: 'Shlomo';
+	text-align: left;
+	padding-left: 0.5em;
 }
 
 [lang='he'], [lang='yi']{
-	font-family: 'Ezra SIL';
+
 	font-size: 1.6em;
 }
 
 td[lang='he'], td[lang='yi']{
-	text-align: right;
+		font-family: 'Shlomo';
+	text-align: justify;
 	direction: rtl;
 	hyphens: auto;
 	-webkit-hyphens: auto;
 	word-spacing: -0.02em;
 		line-height: 1.6;
+}
+
+h1, h2{
+	font-family: 'Shlomo LB' !important;
+	font-weight: normal;
+	letter-spacing: 0.2em;
 }

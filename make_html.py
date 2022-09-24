@@ -10,6 +10,11 @@ from jinja2.filters import FILTERS
 LETTER_INDICES = 'abcdefghijklmnopqrstuvwxyz'
 
 
+def open_file(path):
+    with open(path, "r") as f:
+        return f.read()
+
+
 def convert_index(lang, int):
     if lang in ['he', 'yi']:
         return int_to_gematria(int, gershayim=False)
@@ -33,7 +38,7 @@ FILTERS["subs_brackets_he"] = subs_brackets_he
 
 def main():
 
-    BOOK_PATH = os.environ['TNK_BOOK_PATH']
+    BOOK_PATH = os.environ['TNK_BOOK_PATH'][:-1] if os.environ['TNK_BOOK_PATH'].endswith("/") else os.environ['TNK_BOOK_PATH']
     LANG_1 = os.environ['TNK_BOOK_LANG1'] if len(os.environ['TNK_BOOK_LANG1']) > 0 else None
     LANG_2 = os.environ['TNK_BOOK_LANG2'] if len(os.environ['TNK_BOOK_LANG2']) > 0 else None
 
@@ -81,8 +86,23 @@ def main():
 
     book_length = len(books[0])
 
-    rendered = template.render(title=title, book_length=book_length, books=books, languages=languages)
+    books_ = [[], []]
 
+    for h in range(len(books)):
+        for i in range(book_length):
+
+            if len(books[h][i]) != 0:
+                books_[h].append(books[h][i])
+
+
+    book_length_ = len(books_[0])
+
+    styles = [
+        open_file("book_style.css"),
+        open_file("book_languages.css")
+    ]
+
+    rendered = template.render(title=title, book_length=book_length_, books=books_, languages=languages, styles=styles)
 
     with open(os.path.join(BOOK_PATH, output_filename+'.html'), 'w') as f:
         string = rendered

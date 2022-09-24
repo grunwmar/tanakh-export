@@ -1,10 +1,18 @@
 
 h1{
 	font-weight: normal;
+	padding: 2em;
 }
 
 h1, h2 {
 	text-align: center;
+}
+
+h2::before, h2::after{
+	content: "—";
+	padding: 0 0.2em;
+	font-weight: normal;
+	font-family: "Taamey Frank CLM"
 }
 
 td {
@@ -18,15 +26,17 @@ table {
 	padding: 0 0.1em;
 	margin: 0 auto;
 	width: 95vw;
+	column-span: 0;
 }
 
 .r-index, .l-index{
 	width: 2.5em;
-	text-align: center;
 	vertical-align: top;
-	padding-top: 0.7em;
+	padding-top: 1em;
 	font-size: 12pt;
+
 }
+
 
 .note_1 {
 	font-style: italic;
@@ -37,4 +47,14 @@ table {
 	font-family: "Taamey Frank CLM";
 	vertical-align: middle;
 	font-size: 0.8em;
+}
+
+
+.row_1 {
+	padding: 5pt;
+
+}
+
+.row_2 {
+	padding: 5pt;
 }
