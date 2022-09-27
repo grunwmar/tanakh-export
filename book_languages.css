@@ -19,7 +19,42 @@ body {
 
 [lang='he'], [lang='yi']{
 
-	font-size: 1.6em;
+	font-size: 1.7em;
+}
+
+[lang=he] .note_1, [lang=he] i {
+	font-style: normal;
+	font-family: "Taamey Frank CLM";
+	vertical-align: middle;
+	font-size: 0.8em;
+
+}
+
+.index-rowlang-he{
+	padding-top: 1em !important;
+}
+
+.langlist {
+	font-size: 35px !important;
+	text-align: center;
+	bottom: 10pt;
+	right: -1vw;;
+	position: absolute;
+	width: auto;
+	border:3px solid black;
+	background-color: black;
+	color: whitesmoke;
+	padding: 0.1em 1em;
+}
+
+.langlist div {
+	display: inline-block;
+	margin: 0 0.25em;
+}
+
+.langlist > [lang='he'], .langlist > [lang='yi'] {
+		font-family: 'Taamey Frank CLM' !important;
+		font-size: 1.1em !important;
 }
 
 td[lang='he'], td[lang='yi']{

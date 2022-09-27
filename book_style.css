@@ -1,7 +1,9 @@
-
+body, html{
+	margin: 0;
+	padding: 0;
+}
 h1{
 	font-weight: normal;
-	padding: 2em;
 }
 
 h1, h2, .endbar {
@@ -9,6 +11,7 @@ h1, h2, .endbar {
 }
 
 .endbar{
+	margin-top: 1em;
 	font-size: 2em;
 }
 
@@ -42,31 +45,24 @@ table {
 .r-index, .l-index{
 	width: 2.5em;
 	vertical-align: top;
-	padding-top: 1em;
+	padding-top: 0.25em;
 	font-size: 12pt;
 
 }
-
 
 .note_1 {
 	font-style: italic;
 }
 
-[lang=he] .note_1, [lang=he] i {
-	font-style: normal;
-	font-family: "Taamey Frank CLM";
-	vertical-align: middle;
-	font-size: 0.8em;
-}
-
 
 .row_1 {
-	padding: 5pt;
-
+	padding: 2pt 5pt;
+	vertical-align: middle;
 }
 
 .row_2 {
-	padding: 5pt;
+	padding: 2pt 5pt;
+	vertical-align: middle;
 }
 
 .star-of-david{
@@ -81,4 +77,6 @@ table {
 	background-repeat: no-repeat;
 	background-size: 200pt;
 	height: 23cm;
+	margin: 0;
+	padding: 0;
 }

@@ -6,6 +6,7 @@ from hebrew_numbers import  int_to_gematria
 from filters import fix_yiddish_letters, replace_brackets, unescape_angle_brackets
 from jinja2 import Environment, FileSystemLoader
 from jinja2.filters import FILTERS
+from langcodes import Language
 
 
 LETTER_INDICES = 'abcdefghijklmnopqrstuvwxyz'
@@ -22,6 +23,10 @@ def convert_index(lang, int):
     else:
         return str(int)
 
+
+def langname(isocode):
+    return  Language.get(isocode).display_name(isocode)
+
 def hebrew_index(integer):
     return convert_index("he", integer)
 
@@ -35,6 +40,7 @@ def subs_brackets_he(string):
 FILTERS["hebrew_index"] = hebrew_index
 FILTERS["subs_brackets"] = subs_brackets
 FILTERS["subs_brackets_he"] = subs_brackets_he
+FILTERS["langname"] = langname
 
 
 def main():
@@ -52,6 +58,7 @@ def main():
     output_filename = os.path.basename(BOOK_PATH) + "_" + lang_signature
 
     os.environ['TNK_BOOK_HTMLDOC'] = os.path.join(BOOK_PATH, output_filename)
+
 
     if LANG_1 is not None:
         paths.append(os.path.join(BOOK_PATH, LANG_1 + '.json'))
@@ -105,7 +112,9 @@ def main():
 
     img_src = os.path.join(os.path.dirname(os.path.realpath(__file__)), "star-of-david.png")
 
-    rendered = template.render(title=title, book_length=book_length_, books=books_, languages=languages, styles=styles, img_src=img_src)
+    for h in books_[0]:
+
+        rendered = template.render(title=title, book_length=book_length_, books=books_, languages=languages, styles=styles, img_src=img_src)
 
     with open(os.path.join(BOOK_PATH, output_filename+'.html'), 'w') as f:
         string = rendered

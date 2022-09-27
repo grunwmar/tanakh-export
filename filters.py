@@ -5,7 +5,6 @@ def replace_brackets(string, old=('[', ']'), new=('<em>', '</em>')):
     try:
         re_brackets = re.compile(f'(\{old[0]}([\w\s\d.,!?:;\'\u00A0-\u0903"\-\<\>/\"]*)\{old[1]})')
         found_brackets = re_brackets.findall(string)
-        print("found>>", string, "=>", found_brackets)
         new_string = string
 
         for brackets in found_brackets:
