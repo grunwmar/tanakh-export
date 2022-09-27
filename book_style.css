@@ -1,7 +1,9 @@
 body, html{
 	margin: 0;
 	padding: 0;
+	font-size: 10pt;
 }
+
 h1{
 	font-weight: normal;
 }
@@ -30,53 +32,29 @@ h2::before, h2::after{
 
 td {
 	text-align: justify;
-	margin: 0.1em;
 	line-height: 1.25;
 }
 
 table {
 	page-break-inside: avoid !important;
-	padding: 0 0.1em;
-	margin: 0 auto;
-	width: 95vw;
+	margin: 0 auto !important;
+	width: 92vw;
 	column-span: 0;
+	font-size: 1em;
 }
 
-.r-index, .l-index{
-	width: 2.5em;
-	vertical-align: top;
-	padding-top: 0.25em;
-	font-size: 12pt;
-
-}
 
 .note_1 {
 	font-style: italic;
 }
 
 
-.row_1 {
-	padding: 2pt 5pt;
-	vertical-align: middle;
-}
-
-.row_2 {
-	padding: 2pt 5pt;
-	vertical-align: middle;
-}
-
-.star-of-david{
-	height: 10pt;
-	margin: 0 auto;
-	display: inline-block;
-}
-
 .face{
 	background-image: url('../../../star-of-david_bg.png');
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 200pt;
-	height: 23cm;
+	background-size: 12em;
+	height: 11cm;
 	margin: 0;
 	padding: 0;
 }

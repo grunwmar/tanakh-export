@@ -11,10 +11,10 @@
 </head>
 <body>
   <div class="face">
-    <h1 lang="he" style="font-size: 3em !important; margin-top: 1em;">{{title}}</h1>
+    <h1 lang="he" style="font-size: 2em !important; margin-top: 2.5em;">{{title}}</h1>
     <div class="langlist">
       {%- for langcode in languages -%}
-      <div lang="{{ langcode }}">{{langcode | langname() }}</div>
+      <div lang="{{ langcode }}">{{langcode | langname | yiddish_letters }}</div>
       {%- endfor -%}
     </div>
   </div>
@@ -37,8 +37,8 @@
                 {%- else -%}
                 {%- endif -%}
               </td>
-              <td lang="{{ lang }}" class="row_{{ k + 1 }}">
-                {{ books[k][i][j] | subs_brackets_he | subs_brackets }}
+              <td lang="{{ lang }}" class="row_{{ k + 1 }} text">
+                {{ books[k][i][j] | yiddish_letters | subs_brackets_he | subs_brackets  }}
               </td>
               <td class="r-index index-rowlang-{{ lang }}">
                 {%- if k == 0 -%}

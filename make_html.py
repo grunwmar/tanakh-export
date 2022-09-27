@@ -41,7 +41,7 @@ FILTERS["hebrew_index"] = hebrew_index
 FILTERS["subs_brackets"] = subs_brackets
 FILTERS["subs_brackets_he"] = subs_brackets_he
 FILTERS["langname"] = langname
-
+FILTERS["yiddish_letters"] = fix_yiddish_letters
 
 def main():
 

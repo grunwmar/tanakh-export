@@ -1,6 +1,5 @@
 import re
 
-
 def replace_brackets(string, old=('[', ']'), new=('<em>', '</em>')):
     try:
         re_brackets = re.compile(f'(\{old[0]}([\w\s\d.,!?:;\'\u00A0-\u0903"\-\<\>/\"]*)\{old[1]})')
@@ -18,17 +17,19 @@ def replace_brackets(string, old=('[', ']'), new=('<em>', '</em>')):
 
 
 def fix_yiddish_letters(string):
-    substitute_list = [
-        ["וו", "װ"],
-        ["וי", "ױ"],
-        ["יי", "ײ"],
-        ["ײַ", "ײַ"],
-        ["יִ", "יִ"],
-    ]
-    for s in substitute_list:
-        subst_regx = re.compile("{}".format(s[0]), 0)
-        string = subst_regx.sub(s[1], string)
-
+    try:
+        substitute_list = [
+            ["וו", "װ"],
+            ["וי", "ױ"],
+            ["יי", "ײ"],
+            ["ײַ", "ײַ"],
+            ["יִ", "יִ"],
+        ]
+        for s in substitute_list:
+            subst_regx = re.compile("{}".format(s[0]), 0)
+            string = subst_regx.sub(s[1], string)
+    except TypeError:
+        return string
     return string
 
 
