@@ -1,0 +1,112 @@
+body {
+  font-family: 'Crimson Pro';
+}
+
+.face{
+  text-align: center;
+  height: 14cm;
+  width: 100vw;
+
+  margin: 0 auto;
+
+  background-image: url('../../../star-of-david_bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 12em;
+}
+
+.langlist{
+  display: block;
+  position: absolute;
+  top: 15cm;
+  width: 100%;
+}
+
+[lang=he], [lang=yi]{
+  font-family: 'Shlomo';
+  direction: rtl;
+}
+
+h1, h2 {
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Shlomo LB';
+}
+
+h2{
+  break-after: avoid !important;
+}
+
+h2::before, h2::after{
+	content: "—";
+	padding: 0 0.5em;
+	font-weight: normal;
+	font-family: "Taamey Frank CLM" !important;
+}
+
+table {
+  page-break-inside: avoid !important;
+  width: 100% !important;
+}
+
+.r-index, .l-index {
+  vertical-align: top;
+  font-size: 11px !important;
+  width: 20px;
+  text-align: center;
+  line-height: 8px !important;
+  padding-top: 0.66rem;
+}
+
+.l-index{
+  font-family: 'Crimson Pro';
+}
+.r-index{
+  font-family: 'Shlomo';
+}
+
+.text{
+  text-align: justify;
+  line-height: 1.2;
+  padding-top: 4px;
+}
+
+[lang=he].text, [lang=yi].text {
+  line-height: 1.6 !important;
+  padding-top: 2px;
+}
+
+.row_1 {
+  font-size: x-large;
+}
+
+.row_2 {
+  font-size: medium;
+  line-height: 1;
+}
+
+[lang=he].row_2, [lang=yi].row_2 {
+  font-family: 'Taamey Frank CLM' !important;
+  font-size: medium;
+  line-height: 1.2;
+}
+
+.note_1 {
+	font-style: italic;
+}
+
+[lang=he] .note_1, [lang=he] i {
+	font-style: normal;
+	font-family: "Taamey Frank CLM";
+	vertical-align: middle;
+	font-size: 0.75em;
+}
+
+
+.endbar{
+  text-align: center;
+	margin-top: 2em;
+	font-size: xx-large;
+  font-family: "Taamey Frank CLM" !important;
+  break-before: avoid !important;
+}

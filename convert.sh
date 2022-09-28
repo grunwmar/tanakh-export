@@ -22,7 +22,7 @@ if [ $TNK_BOOK_FORMAT = "pdf" ]; then
 	 	 BOOK_MARGIN_B="--margin-bottom 1"
 fi
 
-BASE_FONTSIZE="--disable-font-rescaling --paper-size a6"
+BASE_FONTSIZE="--disable-font-rescaling --paper-size a5"
 if [ $TNK_BOOK_FORMAT = "epub" ]; then
 	BASE_FONTSIZE="--disable-font-rescaling"
 

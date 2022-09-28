@@ -106,8 +106,9 @@ def main():
     book_length_ = len(books_[0])
 
     styles = [
-        open_file("book_style.css"),
-        open_file("book_languages.css")
+         open_file("style.css"),
+    #    open_file("book_style.css"),
+    #    open_file("book_languages.css")
     ]
 
     img_src = os.path.join(os.path.dirname(os.path.realpath(__file__)), "star-of-david.png")
