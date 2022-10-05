@@ -6,8 +6,8 @@ if ! [ $TNK_BOOK_FORMAT = "epub" ]; then
 	 FLOWSIZE=""
 	 NOEPUBCOVER=""
 fi
-MARGINRL=1
-MARGINTB=20
+MARGINRL=20
+MARGINTB=40
 
 #PDF margins
 if [ $TNK_BOOK_FORMAT = "pdf" ]; then
@@ -22,7 +22,7 @@ if [ $TNK_BOOK_FORMAT = "pdf" ]; then
 	 	 BOOK_MARGIN_B="--margin-bottom 1"
 fi
 
-BASE_FONTSIZE="--disable-font-rescaling --paper-size a5"
+BASE_FONTSIZE="--disable-font-rescaling --paper-size a4 --base-font-size 12"
 if [ $TNK_BOOK_FORMAT = "epub" ]; then
 	BASE_FONTSIZE="--disable-font-rescaling"
 
@@ -54,7 +54,7 @@ echo -e "\033[0m"
 echo " * Cleaning source directory..."
 rm *.epub 2> /dev/null
 rm *.pdf 2> /dev/null
-rm *.html 2> /dev/null
+#rm *.html 2> /dev/null
 echo -e "\033[0m"
 echo -e " [\033[1;32m$DIRNAME\033[0m]"
 echo -e "\033[1;36m"

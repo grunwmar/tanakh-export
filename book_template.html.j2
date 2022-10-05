@@ -10,46 +10,66 @@
   </style>
 </head>
 <body>
-  <div class="face">
-    <h1 lang="he" style="font-size: 2em !important; margin-top: 2.5em;">{{title}}</h1>
-    <div class="langlist">
-      {%- for langcode in languages -%}
-      <div lang="{{ langcode }}">{{langcode | langname | yiddish_letters }}</div>
-      {%- endfor -%}
-    </div>
-  </div>
-  <hr style="visibility: hidden;" />
+  <table class="face">
+
+    <tr>
+      <td colspan="2" class="title"><h1 lang="he">{{title}}</h1></td>
+    </tr>
+
+    <tr><td class="bgimage" colspan="2"></td></tr>
+
+    <tr>
+      <td class="langlist"></td>
+      <td class="langlist">
+        {%- for langcode in languages -%}
+          <div lang="{{ langcode }}">{{langcode | langname | yiddish_letters }}</div>
+        {%- endfor -%}
+      </td>
+    </tr>
+
+  </table>
+
+
   {%- for i in range(book_length) -%}
     {%- set chapter_index = i + 1 -%}
     {%- set chapter_length = books[0][i] | count() -%}
-      <h2>{{ chapter_index }} ∙ <span lang="he">{{ chapter_index | hebrew_index }}</span></h2>
+
+      <h2>{{ chapter_index }} <span class="dot">∙</span> <span lang="he">{{ chapter_index | hebrew_index }}</span></h2>
+
       {%- for j in range(chapter_length) -%}
         {%- set verse_index = j + 1 -%}
         {%- set lang_num = books | count() -%}
+
+
         <table>
-        {%- for k in range(lang_num) -%}
-          {%- if books[k][i] | count() != 0  -%}
-            {%- set lang = languages[k] -%}
+
+
+
             <tr>
+
               <td class="l-index">
-                {%- if k == 0 -%}
                   {{ verse_index }}
-                {%- else -%}
-                {%- endif -%}
               </td>
-              <td lang="{{ lang }}" class="row_{{ k + 1 }} text">
-                {{ books[k][i][j] | yiddish_letters | subs_brackets_he | subs_brackets  }}
+
+              <td class="text">
+                {%- for k in range(lang_num) -%}
+                  {%- if books[k][i] | count() != 0  -%}
+                    {%- set lang = languages[k] -%}
+                    <p class="row_{{ k + 1 }}" lang="{{ lang }}">{{ books[k][i][j] | yiddish_letters | subs_brackets_he | subs_brackets }}</p>
+                  {%- endif -%}
+                {%- endfor -%}
               </td>
-              <td class="r-index">
-                {%- if k == 0 -%}
+
+              <td class="r-index" lang="he">
                   {{ verse_index | hebrew_index }}
-                {%- else -%}
-                {%- endif -%}
               </td>
+
             </tr>
-          {%- endif -%}
-        {%- endfor -%}
+
+
         </table>
+
+
       {%- endfor -%}
       <div class="endbar">―</div>
   {%- endfor -%}

@@ -121,7 +121,7 @@ def main():
         string = rendered
         f.write(unescape_angle_brackets(string))
 
-    os.system('bash convert.sh')
+    os.system('bash ./calibre')
 
 
 main()

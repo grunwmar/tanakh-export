@@ -2,24 +2,8 @@ body {
   font-family: 'Crimson Pro';
 }
 
-.face{
-  text-align: center;
-  height: 14cm;
-  width: 100vw;
-
-  margin: 0 auto;
-
-  background-image: url('../../../star-of-david_bg.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 12em;
-}
-
-.langlist{
-  display: block;
-  position: absolute;
-  top: 15cm;
-  width: 100%;
+body * {
+  line-height: inherit;
 }
 
 [lang=he], [lang=yi]{
@@ -27,69 +11,131 @@ body {
   direction: rtl;
 }
 
-h1, h2 {
+h1, h2  {
   text-align: center;
   font-weight: normal;
   font-family: 'Shlomo LB';
 }
 
+.face{
+  text-align: center;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.title{
+  height: 5cm;
+  vertical-align: bottom;
+}
+
+.title h1 {
+  border-bottom: 2px solid black;
+  padding: 0.5em 0;
+  margin: auto 2cm;
+}
+
+.bgimage {
+    background-image: url('../../../star-of-david.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 12em;
+    height: 18cm;
+}
+
+.langlist {
+  padding: 1em auto;
+  width: 60%;
+}
+
 h2{
+  break-before: always !important;
   break-after: avoid !important;
 }
 
-h2::before, h2::after{
+.dot{
+  font-weight: bold !important;
+  font-family: 'Crimson Pro';
+  font-size: 1.5em;
+}
+
+h2::before, h2::after, .endbar{
 	content: "—";
 	padding: 0 0.5em;
 	font-weight: normal;
-	font-family: "Taamey Frank CLM" !important;
+  font-size: xx-large;
+  text-align: center;
 }
 
 table {
-  page-break-inside: avoid !important;
   width: 100% !important;
+  margin: 0 auto;
+}
+
+tr {
+  page-break-inside: avoid !important;
+}
+
+td {
+  padding: 0;
+  margin: 0;
 }
 
 .r-index, .l-index {
   vertical-align: top;
-  font-size: 11px !important;
-  width: 20px;
+  width: 2em;
   text-align: center;
-  line-height: 8px !important;
-  padding-top: 0.66rem;
+  font-size: 0.75em;
+  padding-top: 0.5em;
+  line-height: 1.75;
+  font-family: 'Shlomo LB';
 }
 
 .l-index{
-  font-family: 'Crimson Pro';
+  padding-right: 0.33em;
+  text-align: right;
 }
+
 .r-index{
-  font-family: 'Shlomo';
+  padding-left: 0.33em;
+  text-align: left;
 }
 
 .text{
-  text-align: justify;
-  line-height: 1.2;
-  padding-top: 4px;
+  padding: 0;
+  margin: 0;
 }
 
-[lang=he].text, [lang=yi].text {
-  line-height: 1.6 !important;
-  padding-top: 2px;
+.text p {
+  text-align: justify;
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  hyphens: none;
+  font-size: 1.5em;
+  line-height: 1.66em;
+}
+
+.text p:not([lang=he]) {
+  line-height: 1.2em;
+  font-size: 1.1em;
+}
+
+.text b {
+  font-weight: normal;
+  color: black;
+  -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0.33px;
+  -webkit-text-stroke-color: black;
 }
 
 .row_1 {
-  font-size: x-large;
+
 }
 
-.row_2 {
-  font-size: medium;
-  line-height: 1;
+.row_2[lang=yi] {
+	font-family: "Taamey Frank CLM";
 }
 
-[lang=he].row_2, [lang=yi].row_2 {
-  font-family: 'Taamey Frank CLM' !important;
-  font-size: medium;
-  line-height: 1.2;
-}
 
 .note_1 {
 	font-style: italic;
@@ -97,16 +143,7 @@ table {
 
 [lang=he] .note_1, [lang=he] i {
 	font-style: normal;
-	font-family: "Taamey Frank CLM";
 	vertical-align: middle;
 	font-size: 0.75em;
-}
-
-
-.endbar{
-  text-align: center;
-	margin-top: 2em;
-	font-size: xx-large;
-  font-family: "Taamey Frank CLM" !important;
-  break-before: avoid !important;
+  color: gray;
 }
