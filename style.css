@@ -1,5 +1,6 @@
 body {
   font-family: 'Crimson Pro';
+  font-size: 19pt;
 }
 
 body * {
@@ -30,8 +31,10 @@ h1, h2  {
 
 .title h1 {
   border-bottom: 2px solid black;
-  padding: 0.5em 0;
+  padding: 2em 0;
   margin: auto 2cm;
+  margin-top: 3em;
+  margin-bottom: 2em;
 }
 
 .bgimage {
@@ -87,17 +90,17 @@ td {
   font-size: 0.75em;
   padding-top: 0.5em;
   line-height: 1.75;
-  font-family: 'Shlomo LB';
+  font-family: 'Shlomo';
 }
 
 .l-index{
   padding-right: 0.33em;
-  text-align: right;
+  text-align: center;
 }
 
 .r-index{
   padding-left: 0.33em;
-  text-align: left;
+  text-align: center;
 }
 
 .text{
@@ -106,16 +109,17 @@ td {
 }
 
 .text p {
-  text-align: justify;
+  
   vertical-align: top;
   padding: 0;
   margin: 0;
   hyphens: none;
   font-size: 1.5em;
-  line-height: 1.66em;
+  line-height: 1.5em;
 }
 
 .text p:not([lang=he]) {
+text-align: justify;
   line-height: 1.2em;
   font-size: 1.1em;
 }
@@ -133,7 +137,8 @@ td {
 }
 
 .row_2[lang=yi] {
-	font-family: "Taamey Frank CLM";
+	font-family: "Taamey David CLM";
+	line-height: 1.2em;
 }
 
 

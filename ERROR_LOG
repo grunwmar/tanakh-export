@@ -1,0 +1,2570 @@
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+Kill signal received
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+Traceback (most recent call last):
+  File "runpy.py", line 196, in _run_module_as_main
+  File "runpy.py", line 86, in _run_code
+  File "site.py", line 45, in <module>
+  File "site.py", line 41, in main
+  File "calibre/ebooks/conversion/cli.py", line 419, in main
+  File "calibre/ebooks/conversion/plumber.py", line 1281, in run
+  File "calibre/ebooks/conversion/plugins/pdf_output.py", line 183, in convert
+  File "calibre/ebooks/conversion/plugins/pdf_output.py", line 247, in convert_text
+  File "calibre/ebooks/conversion/plugins/oeb_output.py", line 62, in convert
+  File "calibre/ebooks/oeb/normalize_css.py", line 264, in condense_sheet
+  File "calibre/ebooks/oeb/normalize_css.py", line 251, in condense_rule
+  File "css_parser/css/cssstyledeclaration.py", line 395, in getProperties
+  File "css_parser/css/cssstyledeclaration.py", line 395, in <listcomp>
+  File "css_parser/css/cssstyledeclaration.py", line 423, in getProperty
+  File "css_parser/util.py", line 686, in <lambda>
+KeyboardInterrupt
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+
+
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+Traceback (most recent call last):
+  File "runpy.py", line 196, in _run_module_as_main
+  File "runpy.py", line 86, in _run_code
+  File "site.py", line 45, in <module>
+  File "site.py", line 41, in main
+  File "calibre/ebooks/conversion/cli.py", line 419, in main
+  File "calibre/ebooks/conversion/plumber.py", line 1165, in run
+  File "calibre/ebooks/oeb/transforms/structure.py", line 87, in __call__
+AttributeError: 'str' object has no attribute 'itersiblings'
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+Traceback (most recent call last):
+  File "runpy.py", line 196, in _run_module_as_main
+  File "runpy.py", line 86, in _run_code
+  File "site.py", line 45, in <module>
+  File "site.py", line 41, in main
+  File "calibre/ebooks/conversion/cli.py", line 419, in main
+  File "calibre/ebooks/conversion/plumber.py", line 1165, in run
+  File "calibre/ebooks/oeb/transforms/structure.py", line 87, in __call__
+AttributeError: 'str' object has no attribute 'itersiblings'
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
+qt.webenginecontext: 
+
+GL Type: disabled
+Surface Type: DefaultRenderableType
+Surface Profile: NoProfile
+Surface Version: 2.0
+QSG RHI Backend: OpenGL
+Using Supported QSG Backend: yes
+Using Software Dynamic GL: no
+Using Multithreaded OpenGL: no
+
+Init Parameters:
+  *  application-name ebook-convert 
+  *  browser-subprocess-path /opt/calibre/libexec/QtWebEngineProcess 
+  *  disable-features ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-setuid-sandbox  
+  *  disable-speech-api  
+  *  enable-features NetworkServiceInProcess,TracingServiceInProcess 
+  *  enable-threaded-compositing  
+  *  in-process-gpu  
+  *  use-gl disabled 
+
+No suitable graphics backend found
+
+
+
+
