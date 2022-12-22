@@ -1,6 +1,6 @@
 body {
   font-family: 'Crimson Pro';
-  font-size: 19pt;
+  font-size: 13pt;
 }
 
 body * {
@@ -89,7 +89,7 @@ td {
   text-align: center;
   font-size: 0.75em;
   padding-top: 0.5em;
-  line-height: 1.75;
+  line-height: 1.25;
   font-family: 'Shlomo';
 }
 
@@ -109,19 +109,18 @@ td {
 }
 
 .text p {
-  
   vertical-align: top;
   padding: 0;
   margin: 0;
   hyphens: none;
-  font-size: 1.5em;
-  line-height: 1.5em;
+  font-size: 1.1em;
+  line-height: 1.5em !important;
 }
 
 .text p:not([lang=he]) {
 text-align: justify;
-  line-height: 1.2em;
-  font-size: 1.1em;
+  line-height: 1.25em;
+  font-size: 1.0em;
 }
 
 .text b {
@@ -138,7 +137,7 @@ text-align: justify;
 
 .row_2[lang=yi] {
 	font-family: "Taamey David CLM";
-	line-height: 1.2em;
+	line-height: 1.0em;
 }
 
 

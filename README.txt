@@ -8,4 +8,4 @@
 
     bash run.sh pdf source_text/Torah/1_Bereshit he cs
 
-    # which will produce file source_text/Torah/1_Bereshit_he-cs.pdf
+    # which will produce file ./1_Bereshit_he-cs.pdf
