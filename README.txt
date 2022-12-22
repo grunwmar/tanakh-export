@@ -6,6 +6,6 @@
 
     e.g.
 
-    bash run.sh pdf source_text/Torah/1_Bereshit he cs
+    bash ./run pdf source_texts/Torah/1_Bereshit he cs
 
     # which will produce file ./1_Bereshit_he-cs.pdf
